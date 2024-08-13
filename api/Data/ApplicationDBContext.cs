@@ -12,7 +12,7 @@ namespace api.Data
         // A Constructor
         public ApplicationDBContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
         {
-            
+
         }
         // These are the two tables xD o.o
         public DbSet<Stock> Stock { get; set; }
